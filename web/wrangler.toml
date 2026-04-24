@@ -1,0 +1,17 @@
+# dify/web/wrangler.toml
+name = "dify-web-ssr"
+main = ".open-next/worker.js"
+
+# 必须设置今天的日期或之后
+compatibility_date = "2026-04-24"
+compatibility_flags = ["nodejs_compat"]
+
+# 关键配置：指向 OpenNext 生成物
+[assets]
+directory = ".open-next/assets"
+binding = "ASSETS"
+
+# 定义环境变量（前端需要访问后端的地址）
+[vars]
+APP_API_URL = "https://ai.itedev.com"
+CONSOLE_API_URL = "https://ai.itedev.com"
