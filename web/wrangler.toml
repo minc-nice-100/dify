@@ -1,7 +1,7 @@
 # dify/web/wrangler.toml
 name = 'dify'
 main = ".open-next/worker.js"
-
+usage_model = "standard"
 # 必须设置今天的日期或之后
 compatibility_date = "2026-04-24"
 compatibility_flags = ["nodejs_compat"]
@@ -15,3 +15,5 @@ binding = "ASSETS"
 [vars]
 APP_API_URL = "https://ai.itedev.com"
 CONSOLE_API_URL = "https://ai.itedev.com"
+
+
