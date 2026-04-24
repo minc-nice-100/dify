@@ -1,6 +1,5 @@
 // dify/web/open-next.config.ts
 import type { OpenNextConfig } from "@opennextjs/aws/types/open-next.js";
-import cache from "@opennextjs/cloudflare/kvCache";
 
 const config: OpenNextConfig = {
   default: {
