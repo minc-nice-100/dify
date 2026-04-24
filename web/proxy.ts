@@ -1,3 +1,6 @@
+export const runtime = 'edge';
+export const preferredRegion = 'auto';
+
 // eslint-disable-next-line no-restricted-imports
 import type { NextRequest } from 'next/server'
 import { Buffer } from 'node:buffer'
