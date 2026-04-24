@@ -1,5 +1,5 @@
 # dify/web/wrangler.toml
-name = "dify-web-ssr"
+name = 'dify'
 main = ".open-next/worker.js"
 
 # 必须设置今天的日期或之后
